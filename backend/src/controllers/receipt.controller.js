@@ -7,6 +7,9 @@ class ReceiptController {
    * Upload and process a receipt image
    * POST /api/receipts/upload
    */
+
+  //gertjk
+
   async uploadReceipt(req, res) {
     try {
       if (!req.file) {
