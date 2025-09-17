@@ -7,7 +7,7 @@ import RegisterPage from './pages/RegisterPage'
 import UploadPage from './pages/UploadPage'
 import Dashboard from './pages/Dashboard'
 import { useAuth } from './hooks/useStore'
-
+//abc
 function App() {
   // Initialize view based on authentication status and localStorage
   const getInitialView = () => {
